@@ -1,0 +1,403 @@
+Begin Object Class=/Script/Engine.Material Name="PP_CellShading"
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_25"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_24"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_31"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_30"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_22"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_29"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_28"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionIf Name="MaterialExpressionIf_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDesaturation Name="MaterialExpressionDesaturation_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDesaturation Name="MaterialExpressionDesaturation_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_27"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_20"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDesaturation Name="MaterialExpressionDesaturation_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSceneTexture Name="MaterialExpressionSceneTexture_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionIf Name="MaterialExpressionIf_0"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_19"
+      Input=(Expression=MaterialExpressionSceneTexture'"PP_CellShading:MaterialExpressionSceneTexture_6"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      R=True
+      G=True
+      B=True
+      MaterialExpressionEditorX=3920
+      MaterialExpressionEditorY=1280
+      MaterialExpressionGuid=AB1AF8A949E3FF6553372C90F6C38477
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_18"
+      Input=(Expression=MaterialExpressionIf'"PP_CellShading:MaterialExpressionIf_2"')
+      R=True
+      G=True
+      B=True
+      MaterialExpressionEditorX=3792
+      MaterialExpressionEditorY=1516
+      MaterialExpressionGuid=AB1AF8A949E3FF6553372C90F6C38477
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      MaterialExpressionEditorX=2816
+      MaterialExpressionEditorY=2864
+      MaterialExpressionGuid=69F40DF64D09063549E187A6EEAE1DCD
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_1"
+      A=(Expression=MaterialExpressionVectorParameter'"PP_CellShading:MaterialExpressionVectorParameter_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionConstant'"PP_CellShading:MaterialExpressionConstant_5"')
+      MaterialExpressionEditorX=2896
+      MaterialExpressionEditorY=2752
+      MaterialExpressionGuid=262943444E868AB0F522038844F656E2
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=0.312500,G=0.312500,B=0.312500,A=1.000000)
+      ParameterName="Dark Tint"
+      ExpressionGUID=18B29E8B454AFD0EB94895BE7630C4FB
+      MaterialExpressionEditorX=2560
+      MaterialExpressionEditorY=2832
+      MaterialExpressionGuid=79BFF45A40C1B3A31C1AC3A6079CBDB3
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_25"
+      A=(Expression=MaterialExpressionAdd'"PP_CellShading:MaterialExpressionAdd_16"')
+      B=(Expression=MaterialExpressionAppendVector'"PP_CellShading:MaterialExpressionAppendVector_1"')
+      MaterialExpressionEditorX=2944
+      MaterialExpressionEditorY=2480
+      MaterialExpressionGuid=0C90F2E842AFB66C3FE600B55122D245
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_16"
+      A=(Expression=MaterialExpressionSceneTexture'"PP_CellShading:MaterialExpressionSceneTexture_30"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=MaterialExpressionMultiply'"PP_CellShading:MaterialExpressionMultiply_24"')
+      MaterialExpressionEditorX=2736
+      MaterialExpressionEditorY=2384
+      MaterialExpressionGuid=3AFD2F0D46A8F065D18D50A23DCDBDA5
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      DefaultValue=1.000000
+      ParameterName="Dark Tint Amount"
+      ExpressionGUID=4D0D380345EFF2779358ACA975EFFAE3
+      MaterialExpressionEditorX=2304
+      MaterialExpressionEditorY=2784
+      MaterialExpressionGuid=7F8F6D8043AE6D5A7DD1C385E134679A
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_24"
+      A=(Expression=MaterialExpressionSceneTexture'"PP_CellShading:MaterialExpressionSceneTexture_31"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=MaterialExpressionScalarParameter'"PP_CellShading:MaterialExpressionScalarParameter_9"')
+      MaterialExpressionEditorX=2608
+      MaterialExpressionEditorY=2496
+      MaterialExpressionGuid=E4B113C341D98988C6692AB7C7DB30E0
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_31"
+      SceneTextureId=PPI_PostProcessInput0
+      MaterialExpressionEditorX=2256
+      MaterialExpressionEditorY=2576
+      MaterialExpressionGuid=EF2B7B8042D0DD3384CE5996CEDC57D1
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_30"
+      SceneTextureId=PPI_DiffuseColor
+      MaterialExpressionEditorX=2224
+      MaterialExpressionEditorY=2336
+      MaterialExpressionGuid=EF2B7B8042D0DD3384CE5996CEDC57D1
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      MaterialExpressionEditorX=2672
+      MaterialExpressionEditorY=2176
+      MaterialExpressionGuid=69F40DF64D09063549E187A6EEAE1DCD
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_0"
+      A=(Expression=MaterialExpressionVectorParameter'"PP_CellShading:MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionConstant'"PP_CellShading:MaterialExpressionConstant_4"')
+      MaterialExpressionEditorX=2908
+      MaterialExpressionEditorY=2041
+      MaterialExpressionGuid=262943444E868AB0F522038844F656E2
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.916667,G=0.916667,B=0.916667,A=1.000000)
+      ParameterName="Light Tint"
+      ExpressionGUID=58CF4C664242C9AA048EDEA8512ABDF7
+      MaterialExpressionEditorX=2608
+      MaterialExpressionEditorY=1968
+      MaterialExpressionGuid=79BFF45A40C1B3A31C1AC3A6079CBDB3
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_23"
+      A=(Expression=MaterialExpressionAdd'"PP_CellShading:MaterialExpressionAdd_15"')
+      B=(Expression=MaterialExpressionAppendVector'"PP_CellShading:MaterialExpressionAppendVector_0"')
+      MaterialExpressionEditorX=2957
+      MaterialExpressionEditorY=1768
+      MaterialExpressionGuid=0C90F2E842AFB66C3FE600B55122D245
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_15"
+      A=(Expression=MaterialExpressionSceneTexture'"PP_CellShading:MaterialExpressionSceneTexture_28"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=MaterialExpressionMultiply'"PP_CellShading:MaterialExpressionMultiply_22"')
+      MaterialExpressionEditorX=2752
+      MaterialExpressionEditorY=1680
+      MaterialExpressionGuid=3AFD2F0D46A8F065D18D50A23DCDBDA5
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=1.000000
+      ParameterName="Light Tint Amount"
+      ExpressionGUID=5B6F7439466A5962672A94A12F203EE9
+      MaterialExpressionEditorX=2304
+      MaterialExpressionEditorY=2016
+      MaterialExpressionGuid=7F8F6D8043AE6D5A7DD1C385E134679A
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_22"
+      A=(Expression=MaterialExpressionSceneTexture'"PP_CellShading:MaterialExpressionSceneTexture_29"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=MaterialExpressionScalarParameter'"PP_CellShading:MaterialExpressionScalarParameter_8"')
+      MaterialExpressionEditorX=2624
+      MaterialExpressionEditorY=1792
+      MaterialExpressionGuid=E4B113C341D98988C6692AB7C7DB30E0
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_29"
+      SceneTextureId=PPI_PostProcessInput0
+      MaterialExpressionEditorX=2224
+      MaterialExpressionEditorY=1808
+      MaterialExpressionGuid=EF2B7B8042D0DD3384CE5996CEDC57D1
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_28"
+      SceneTextureId=PPI_DiffuseColor
+      MaterialExpressionEditorX=2240
+      MaterialExpressionEditorY=1632
+      MaterialExpressionGuid=EF2B7B8042D0DD3384CE5996CEDC57D1
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_7"
+      DefaultValue=0.500000
+      ParameterName="Shade Depth"
+      ExpressionGUID=0ECB32FC4C85F94F91E5EA814D5F95CA
+      MaterialExpressionEditorX=2944
+      MaterialExpressionEditorY=1520
+      MaterialExpressionGuid=276303384DD5D392B1973C8701548F13
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionIf_2"
+      A=(Expression=MaterialExpressionClamp'"PP_CellShading:MaterialExpressionClamp_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"PP_CellShading:MaterialExpressionScalarParameter_7"')
+      AGreaterThanB=(Expression=MaterialExpressionMultiply'"PP_CellShading:MaterialExpressionMultiply_23"')
+      ALessThanB=(Expression=MaterialExpressionMultiply'"PP_CellShading:MaterialExpressionMultiply_25"')
+      MaterialExpressionEditorX=3381
+      MaterialExpressionEditorY=1454
+      MaterialExpressionGuid=83CAD61C4A1B0994E7D0DB81B8639CDE
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_0"
+      Input=(Expression=MaterialExpressionDivide'"PP_CellShading:MaterialExpressionDivide_2"')
+      MaterialExpressionEditorX=2936
+      MaterialExpressionEditorY=1341
+      MaterialExpressionGuid=0D64FCD94495ECDD45F54996CF3A3F88
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_2"
+      A=(Expression=MaterialExpressionDesaturation'"PP_CellShading:MaterialExpressionDesaturation_2"')
+      B=(Expression=MaterialExpressionDesaturation'"PP_CellShading:MaterialExpressionDesaturation_1"')
+      MaterialExpressionEditorX=2752
+      MaterialExpressionEditorY=1232
+      MaterialExpressionGuid=2251636748530EBB3B86B5A5A02D8984
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionDesaturation_2"
+      Input=(Expression=MaterialExpressionSceneTexture'"PP_CellShading:MaterialExpressionSceneTexture_27"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=2544
+      MaterialExpressionEditorY=1184
+      MaterialExpressionGuid=2604004C4DD9D0A36E4FAA890BEF804B
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionDesaturation_1"
+      Input=(Expression=MaterialExpressionSceneTexture'"PP_CellShading:MaterialExpressionSceneTexture_20"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      MaterialExpressionEditorX=2544
+      MaterialExpressionEditorY=1296
+      MaterialExpressionGuid=2604004C4DD9D0A36E4FAA890BEF804B
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_27"
+      SceneTextureId=PPI_PostProcessInput0
+      MaterialExpressionEditorX=2192
+      MaterialExpressionEditorY=1120
+      MaterialExpressionGuid=EF2B7B8042D0DD3384CE5996CEDC57D1
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_20"
+      SceneTextureId=PPI_DiffuseColor
+      MaterialExpressionEditorX=2224
+      MaterialExpressionEditorY=1296
+      MaterialExpressionGuid=EF2B7B8042D0DD3384CE5996CEDC57D1
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_6"
+      SceneTextureId=PPI_PostProcessInput0
+      MaterialExpressionEditorX=3552
+      MaterialExpressionEditorY=1200
+      MaterialExpressionGuid=EF2B7B8042D0DD3384CE5996CEDC57D1
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=1.000000
+      MaterialExpressionEditorX=4160
+      MaterialExpressionEditorY=1200
+      MaterialExpressionGuid=92E1ABFC46E399D0D96A3BB463C4D071
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionDesaturation_0"
+      Input=(Expression=MaterialExpressionDivide'"PP_CellShading:MaterialExpressionDivide_0"')
+      MaterialExpressionEditorX=4272
+      MaterialExpressionEditorY=992
+      MaterialExpressionGuid=FA2F6EE344C1F8286C360A86E5D7F493
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=10000.000000
+      MaterialExpressionEditorX=3808
+      MaterialExpressionEditorY=1040
+      MaterialExpressionGuid=F6B5CA9C42357EEC13EF8398A26A5723
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression=MaterialExpressionSceneTexture'"PP_CellShading:MaterialExpressionSceneTexture_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+      B=(Expression=MaterialExpressionConstant'"PP_CellShading:MaterialExpressionConstant_1"')
+      MaterialExpressionEditorX=4072
+      MaterialExpressionEditorY=975
+      MaterialExpressionGuid=9B36065843F532FA4F1763B7F7CE7BB9
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionSceneTexture_0"
+      SceneTextureId=PPI_SceneDepth
+      MaterialExpressionEditorX=3600
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=EF2B7B8042D0DD3384CE5996CEDC57D1
+      Material=Material'"PP_CellShading"'
+   End Object
+   Begin Object Name="MaterialExpressionIf_0"
+      A=(Expression=MaterialExpressionDesaturation'"PP_CellShading:MaterialExpressionDesaturation_0"')
+      B=(Expression=MaterialExpressionConstant'"PP_CellShading:MaterialExpressionConstant_2"')
+      AGreaterThanB=(Expression=MaterialExpressionComponentMask'"PP_CellShading:MaterialExpressionComponentMask_19"')
+      AEqualsB=(Expression=MaterialExpressionComponentMask'"PP_CellShading:MaterialExpressionComponentMask_19"')
+      ALessThanB=(Expression=MaterialExpressionComponentMask'"PP_CellShading:MaterialExpressionComponentMask_18"')
+      MaterialExpressionEditorX=4448
+      MaterialExpressionEditorY=1248
+      MaterialExpressionGuid=0B259A2B4FDAFD637F10B29C6C78A155
+      Material=Material'"PP_CellShading"'
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionIf'"MaterialExpressionIf_0"')
+   MaterialDomain=MD_PostProcess
+   EditorX=5584
+   EditorY=1136
+   Expressions(0)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_0"'
+   Expressions(1)=MaterialExpressionDivide'"MaterialExpressionDivide_0"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   Expressions(3)=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_0"'
+   Expressions(4)=MaterialExpressionIf'"MaterialExpressionIf_0"'
+   Expressions(5)=MaterialExpressionConstant'"MaterialExpressionConstant_2"'
+   Expressions(6)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_6"'
+   Expressions(7)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_20"'
+   Expressions(8)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_27"'
+   Expressions(9)=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_1"'
+   Expressions(10)=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_2"'
+   Expressions(11)=MaterialExpressionDivide'"MaterialExpressionDivide_2"'
+   Expressions(12)=MaterialExpressionClamp'"MaterialExpressionClamp_0"'
+   Expressions(13)=MaterialExpressionIf'"MaterialExpressionIf_2"'
+   Expressions(14)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_7"'
+   Expressions(15)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_28"'
+   Expressions(16)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_29"'
+   Expressions(17)=MaterialExpressionMultiply'"MaterialExpressionMultiply_22"'
+   Expressions(18)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_8"'
+   Expressions(19)=MaterialExpressionAdd'"MaterialExpressionAdd_15"'
+   Expressions(20)=MaterialExpressionMultiply'"MaterialExpressionMultiply_23"'
+   Expressions(21)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(22)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_0"'
+   Expressions(23)=MaterialExpressionConstant'"MaterialExpressionConstant_4"'
+   Expressions(24)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_30"'
+   Expressions(25)=MaterialExpressionSceneTexture'"MaterialExpressionSceneTexture_31"'
+   Expressions(26)=MaterialExpressionMultiply'"MaterialExpressionMultiply_24"'
+   Expressions(27)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_9"'
+   Expressions(28)=MaterialExpressionAdd'"MaterialExpressionAdd_16"'
+   Expressions(29)=MaterialExpressionMultiply'"MaterialExpressionMultiply_25"'
+   Expressions(30)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_3"'
+   Expressions(31)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_1"'
+   Expressions(32)=MaterialExpressionConstant'"MaterialExpressionConstant_5"'
+   Expressions(33)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_18"'
+   Expressions(34)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_19"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   ParameterGroupData(4)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   bCastRayTracedShadows=False
+   BlendableLocation=BL_BeforeTonemapping
+   StateId=AAE848534880D0F10A0F0DB34BFA6CD2
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(1193337645371558632,1660600472808151237,2330498807812745278),ParameterInfos=((Name="Light Tint Amount"),(Name="Dark Tint Amount"),(Name="Shade Depth")),ExpressionGuids=(5B6F7439466A5962672A94A12F203EE9,4D0D380345EFF2779358ACA975EFFAE3,0ECB32FC4C85F94F91E5EA814D5F95CA),Overrides=(False,False,False)),RuntimeEntries[1]=(NameHashes=(8397233645509461779,13638171916599764663),ParameterInfos=((Name="Dark Tint"),(Name="Light Tint")),ExpressionGuids=(18B29E8B454AFD0EB94895BE7630C4FB,58CF4C664242C9AA048EDEA8512ABDF7),Overrides=(False,False)),ScalarValues=(1.000000,1.000000,0.500000),VectorValues=((R=0.312500,G=0.312500,B=0.312500,A=1.000000),(R=0.916667,G=0.916667,B=0.916667,A=1.000000)),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None,None),ScalarCurveAtlasValues=(None,None,None),VectorChannelNameValues=((),()),VectorUsedAsChannelMaskValues=(False,False)),QualityLevelsUsed=(False,False,False,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=3944D1CC46B3A4881C9BAAB3EE10049C
+End Object

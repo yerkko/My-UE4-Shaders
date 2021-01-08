@@ -1,0 +1,346 @@
+Begin Object Class=/Script/Engine.Material Name="m_Clouds"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant4Vector Name="MaterialExpressionConstant4Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant4Vector Name="MaterialExpressionConstant4Vector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant4Vector Name="MaterialExpressionConstant4Vector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant4Vector Name="MaterialExpressionConstant4Vector_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFresnel Name="MaterialExpressionFresnel_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNoise Name="MaterialExpressionNoise_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNoise Name="MaterialExpressionNoise_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureObjectParameter Name="MaterialExpressionTextureObjectParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexNormalWS Name="MaterialExpressionVertexNormalWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionWorldPosition'"m_Clouds:MaterialExpressionWorldPosition_0"')
+      B=(Expression=MaterialExpressionMultiply'"m_Clouds:MaterialExpressionMultiply_2"')
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=884511394E304316E40C71BAFB115C0E
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_0"
+      Input=(Expression=MaterialExpressionMultiply'"m_Clouds:MaterialExpressionMultiply_0"')
+      Min=(Expression=MaterialExpressionConstant'"m_Clouds:MaterialExpressionConstant_2"')
+      Max=(Expression=MaterialExpressionConstant'"m_Clouds:MaterialExpressionConstant_3"')
+      MaterialExpressionEditorX=-784
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=AEE786424714809F24C124A0C99D357A
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=1293
+      SizeY=951
+      Text="Color Mapping"
+      MaterialExpressionEditorX=-1970
+      MaterialExpressionEditorY=-1282
+      MaterialExpressionGuid=5A79528640ACA1F5F7EE6DB1176CF490
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=100.000000
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=9455310D4C650E7A40E25CA13CAC8E82
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=-200.000000
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=9455310D4C650E7A40E25CA13CAC8E82
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=500.000000
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=9455310D4C650E7A40E25CA13CAC8E82
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      R=10.000000
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=9455310D4C650E7A40E25CA13CAC8E82
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_7"
+      R=0.005000
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=9455310D4C650E7A40E25CA13CAC8E82
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_8"
+      R=0.800000
+      MaterialExpressionEditorX=-1328
+      MaterialExpressionEditorY=-432
+      MaterialExpressionGuid=A450458C435DF8A5A452B88C84AB1814
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.046385,G=0.237141,B=0.458333,A=0.000000)
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=E3E1EB5240189A65A64034A1C7B5F43D
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant4Vector_0"
+      Constant=(R=0.609375,G=0.529058,B=0.215820,A=1.000000)
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=-1008
+      MaterialExpressionGuid=9170E17F48B35399DBC0C49C41EAC165
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant4Vector_1"
+      Constant=(R=0.067383,G=0.334630,B=0.359375,A=1.000000)
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=-1168
+      MaterialExpressionGuid=9170E17F48B35399DBC0C49C41EAC165
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant4Vector_2"
+      Constant=(R=0.004788,G=0.053051,B=0.151042,A=1.000000)
+      MaterialExpressionEditorX=-1088
+      MaterialExpressionEditorY=-1216
+      MaterialExpressionGuid=9170E17F48B35399DBC0C49C41EAC165
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant4Vector_4"
+      Constant=(R=0.007812,G=0.036724,B=0.083333,A=0.000000)
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=6268ABF244B3E7965A4F00B4555BA47E
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_0"
+      Exponent=12.667641
+      MaterialExpressionEditorX=-1008
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=594033184E968628689C5DAD292B2BAA
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionNoise'"m_Clouds:MaterialExpressionNoise_1"')
+      B=(Expression=MaterialExpressionTextureSample'"m_Clouds:MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionConstant'"m_Clouds:MaterialExpressionConstant_8"')
+      MaterialExpressionEditorX=-1184
+      MaterialExpressionEditorY=-704
+      MaterialExpressionGuid=0D0D457243EABF93F5D9EE8EB5C49407
+      Material=Material'"m_Clouds"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      Alpha=(Expression=MaterialExpressionFresnel'"m_Clouds:MaterialExpressionFresnel_0"')
+      ConstA=1.000000
+      ConstB=0.950000
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=8058DC8548D64012F387BFA292888958
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Lerp_3Color.Lerp_3Color"'
+      FunctionInputs(0)=(ExpressionInputId=A7C103D84B8EF0F31E15F3A71B4BE53B,Input=(Expression=MaterialExpressionConstant4Vector'"m_Clouds:MaterialExpressionConstant4Vector_2"',InputName="A"))
+      FunctionInputs(1)=(ExpressionInputId=89D3EA344DF4034BC724BFACAA7D8078,Input=(Expression=MaterialExpressionConstant4Vector'"m_Clouds:MaterialExpressionConstant4Vector_1"',InputName="B"))
+      FunctionInputs(2)=(ExpressionInputId=113DB8B942B3E0CA594A9CA108EE0702,Input=(Expression=MaterialExpressionConstant4Vector'"m_Clouds:MaterialExpressionConstant4Vector_0"',InputName="C"))
+      FunctionInputs(3)=(ExpressionInputId=083CF3604C16D45B495090AB8C3A1C8F,Input=(Expression=MaterialExpressionLinearInterpolate'"m_Clouds:MaterialExpressionLinearInterpolate_0"',InputName="Alpha"))
+      FunctionOutputs(0)=(ExpressionOutputId=F84BE0004B411B9BF70441B2BEDC184F,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-848
+      MaterialExpressionEditorY=-896
+      MaterialExpressionGuid=05B4C969463D50F2DBBD51B4C1007388
+      Material=Material'"m_Clouds"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionNoise'"m_Clouds:MaterialExpressionNoise_2"')
+      B=(Expression=MaterialExpressionConstant'"m_Clouds:MaterialExpressionConstant_1"')
+      ConstB=100.000000
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=7DF871694B98294A885B37A35428649D
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionClamp'"m_Clouds:MaterialExpressionClamp_0"')
+      B=(Expression=MaterialExpressionVertexNormalWS'"m_Clouds:MaterialExpressionVertexNormalWS_0"')
+      ConstB=100.000000
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=7DF871694B98294A885B37A35428649D
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionMultiply'"m_Clouds:MaterialExpressionMultiply_3"')
+      B=(Expression=MaterialExpressionConstant3Vector'"m_Clouds:MaterialExpressionConstant3Vector_0"')
+      MaterialExpressionEditorX=-1440
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=B80D6AE445409C2E6A2F8DB0D032514D
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionNoise_1"
+      FilterWidth=(Expression=MaterialExpressionMultiply'"m_Clouds:MaterialExpressionMultiply_3"')
+      Scale=1.152785
+      NoiseFunction=NOISEFUNCTION_GradientTex3D
+      MaterialExpressionEditorX=-1616
+      MaterialExpressionEditorY=-880
+      MaterialExpressionGuid=6A2EB42A40ABE9A8CC05A597AD3DD564
+      Material=Material'"m_Clouds"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionNoise_2"
+      Position=(Expression=MaterialExpressionAdd'"m_Clouds:MaterialExpressionAdd_0"')
+      Scale=0.001000
+      NoiseFunction=NOISEFUNCTION_GradientALU
+      Levels=10
+      MaterialExpressionEditorX=-1216
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=C3AF12C4488153627FCB87A63DDFC29D
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureObjectParameter_0"
+      ParameterName="Param"
+      ExpressionGUID=F131057F460E4895064099A8DA8A788E
+      Texture=Texture2D'"/Game/Cloud_Texture.Cloud_Texture"'
+      MaterialExpressionEditorX=-1920
+      MaterialExpressionEditorY=-544
+      MaterialExpressionGuid=6070CA514A831D745D289E96F45ED2EA
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      TextureObject=(Expression=MaterialExpressionTextureObjectParameter'"m_Clouds:MaterialExpressionTextureObjectParameter_0"')
+      MaterialExpressionEditorX=-1584
+      MaterialExpressionEditorY=-640
+      MaterialExpressionGuid=8A4B629A45721478063DF583F377568B
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      MaterialExpressionEditorX=-1984
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=D31B1EE0428034DC83AC56B220ADDD25
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="MaterialExpressionVertexNormalWS_0"
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=1524C46B40B3F827BA041EB0F80F06F3
+      Material=Material'"m_Clouds"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_0"
+      MaterialExpressionEditorX=-1760
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=33D12EBF449CE09CC7C3B68D655684F2
+      Material=Material'"m_Clouds"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionTime'"m_Clouds:MaterialExpressionTime_0"')
+      ConstB=26.693388
+      MaterialExpressionEditorX=-1744
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=BE91684F483CF3CD761C00AADF941684
+      Material=Material'"m_Clouds"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"')
+   EmissiveColor=(Expression=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_2"')
+   Opacity=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"')
+   ShadingModel=MSM_Subsurface
+   ShadingModels=(ShadingModelField=4)
+   WorldDisplacement=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"')
+   TessellationMultiplier=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_4"')
+   SubsurfaceColor=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_7"')
+   AmbientOcclusion=(Expression=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_4"')
+   TranslucencyLightingMode=TLM_VolumetricDirectional
+   bUsedWithStaticLighting=True
+   D3D11TessellationMode=MTM_FlatTessellation
+   Expressions(0)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(1)=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_2"'
+   Expressions(2)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"'
+   Expressions(3)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(4)=MaterialExpressionConstant'"MaterialExpressionConstant_4"'
+   Expressions(5)=MaterialExpressionConstant'"MaterialExpressionConstant_7"'
+   Expressions(6)=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_4"'
+   Expressions(7)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(8)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   Expressions(9)=MaterialExpressionClamp'"MaterialExpressionClamp_0"'
+   Expressions(10)=MaterialExpressionConstant'"MaterialExpressionConstant_2"'
+   Expressions(11)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(12)=MaterialExpressionVertexNormalWS'"MaterialExpressionVertexNormalWS_0"'
+   Expressions(13)=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_0"'
+   Expressions(14)=MaterialExpressionConstant4Vector'"MaterialExpressionConstant4Vector_1"'
+   Expressions(15)=MaterialExpressionNoise'"MaterialExpressionNoise_1"'
+   Expressions(16)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(17)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(18)=MaterialExpressionConstant'"MaterialExpressionConstant_8"'
+   Expressions(19)=MaterialExpressionTextureObjectParameter'"MaterialExpressionTextureObjectParameter_0"'
+   Expressions(20)=MaterialExpressionFresnel'"MaterialExpressionFresnel_0"'
+   Expressions(21)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   Expressions(22)=MaterialExpressionTime'"MaterialExpressionTime_0"'
+   Expressions(23)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(24)=MaterialExpressionWorldPosition'"MaterialExpressionWorldPosition_0"'
+   Expressions(25)=MaterialExpressionNoise'"MaterialExpressionNoise_2"'
+   Expressions(26)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   Expressions(27)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   bCastRayTracedShadows=False
+   StateId=B2FED92B48114775978E4E94BD764FAA
+   CachedExpressionData=(Parameters=(RuntimeEntries[2]=(NameHashes=(10371715421228879687),ParameterInfos=((Name="Param")),ExpressionGuids=(F131057F460E4895064099A8DA8A788E),Overrides=(False)),TextureValues=(Texture2D'"/Game/Cloud_Texture.Cloud_Texture"'),TextureChannelNameValues=(())),ReferencedTextures=(None,Texture2D'"/Game/Cloud_Texture.Cloud_Texture"'),FunctionInfos=((StateId=3200506D40C4B9AA51E341AEB06709BA,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Lerp_3Color.Lerp_3Color"')),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=A61773244CB1FB2A8941F39D2E7661BC
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global", True))
+   LightingGuid=6E0CDB574B4A455BA8B9F4BFC2C1AC61
+End Object
